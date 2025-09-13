@@ -29,16 +29,9 @@ module.exports = grammar({
       $.map
     ),
 
-    // field: $ => seq($.identifier, $.assign, $.element, $.terminate),
     field: $ => seq($.identifier, '=', $.element, ';'),
     list: $ => seq('[', repeat($.element), ']'),
     map: $ => seq('{', repeat($.field), '}'),
-
-
-    // list: $ => seq('[', repeat($.element), ']'),
-    
-    // map: $ => seq('{', repeat($.field), '}'),
-    
     string: $ => token(seq( '"', repeat(choice( /[^\"]/, /\\"/, /\\n/, /\\r/, /\\t/ )), '"', )),
     number: $ => token(/-?(?:\d+(?:\.\d*)?(?:[eE][+-]?\d+)?|\.\d+(?:[eE][+-]?\d+)?)/),
     bool: $ => choice('true', 'false'),
