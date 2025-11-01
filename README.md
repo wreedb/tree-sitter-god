@@ -19,6 +19,16 @@ tree-sitter parse example/types.god
 tree-sitter highlight example/package.god
 ```
 
+---
+If you would like to introspect the grammar interactively, you can use 
+the following commands:
+```sh
+tree-sitter build --wasm
+tree-sitter playground
+```
+Which will open a local web server at port 8001 with an interface to use.
+
+---
 And if you'd like to install the grammar, you can use make or CMake:
 ```sh
 # make
