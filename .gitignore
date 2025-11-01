@@ -1,3 +1,7 @@
+.build/
+.bld/
+bld/
+
 # Rust artifacts
 target/
 Cargo.lock
