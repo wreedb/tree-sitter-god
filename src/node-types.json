@@ -41,6 +41,10 @@
           "named": true
         },
         {
+          "type": "negatedElement",
+          "named": true
+        },
+        {
           "type": "null",
           "named": true
         },
@@ -64,11 +68,19 @@
       "required": true,
       "types": [
         {
+          "type": "assignment",
+          "named": true
+        },
+        {
           "type": "element",
           "named": true
         },
         {
           "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "termination",
           "named": true
         }
       ]
@@ -105,12 +117,28 @@
     }
   },
   {
-    "type": ";",
-    "named": false
+    "type": "negatedElement",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "element",
+          "named": true
+        },
+        {
+          "type": "negation",
+          "named": true
+        }
+      ]
+    }
   },
   {
-    "type": "=",
-    "named": false
+    "type": "string",
+    "named": true,
+    "fields": {}
   },
   {
     "type": "[",
@@ -119,6 +147,10 @@
   {
     "type": "]",
     "named": false
+  },
+  {
+    "type": "assignment",
+    "named": true
   },
   {
     "type": "comment",
@@ -134,6 +166,10 @@
     "named": true
   },
   {
+    "type": "negation",
+    "named": true
+  },
+  {
     "type": "null",
     "named": true
   },
@@ -142,7 +178,7 @@
     "named": true
   },
   {
-    "type": "string",
+    "type": "termination",
     "named": true
   },
   {
