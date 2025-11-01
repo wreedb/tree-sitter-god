@@ -1,14 +1,14 @@
 {
     "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
-    
-    "grammars":
-    [
+    "grammars": [
         {
             "name": "god",
             "camelcase": "God",
             "title": "God",
             "scope": "source.god",
-            "file-types": [ "god" ],
+            "file-types": [
+                "god"
+            ],
             "injection-regex": "^god$",
             "class-name": "TreeSitterGod",
             "highlights": "queries/highlights.scm",
@@ -17,36 +17,28 @@
             "folds": "queries/folds.scm"
         }
     ],
-
-    "metadata":
-    {
+    "metadata": {
         "version": "0.1.0",
         "license": "LGPL-3.0-or-later",
-        "description": "tree-sitter grammar, for God",
-        
-        "authors":
-        [
+        "description": "Tree-sitter grammar, for God",
+        "authors": [
             {
                 "name": "Will Reed",
                 "email": "wreed@disroot.org",
                 "url": "https://wreedb.github.io"
             }
         ],
-
-        "links":
-        {
+        "links": {
             "repository": "https://github.com/wreedb/tree-sitter-god"
         }
     },
-
-    "bindings":
-    {
+    "bindings": {
         "c": true,
         "go": true,
         "node": true,
         "python": true,
         "rust": true,
         "swift": true,
-        "zig": false
+        "zig": true
     }
 }
