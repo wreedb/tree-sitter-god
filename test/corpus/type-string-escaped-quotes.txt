@@ -1,0 +1,21 @@
+===============================================================================
+type(string): escaped quotes
+===============================================================================
+{
+    name = "\"Will\"";
+    height = "6\'2\"";
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (string))
+    (termination))
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (string))
+    (termination)))

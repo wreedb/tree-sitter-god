@@ -1,0 +1,27 @@
+===============================================================================
+type(number): uppercase negative exponents
+===============================================================================
+{
+    negated_sci = -1.5E10;
+    negated_small = -.5E-5;
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (negatedElement
+        (negation)
+        (element
+          (number))))
+    (termination))
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (negatedElement
+        (negation)
+        (element
+          (number))))
+    (termination)))

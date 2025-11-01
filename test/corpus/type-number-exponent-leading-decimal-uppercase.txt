@@ -1,0 +1,21 @@
+===============================================================================
+type(number): uppercase exponents with leading decimal
+===============================================================================
+{
+    decimal-exp = .5E10;
+    decimal-negative-exp = .123E-5;
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination))
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination)))

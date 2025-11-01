@@ -1,0 +1,21 @@
+===============================================================================
+type(number): uppercase exponents
+===============================================================================
+{
+    upper = 1.23E10;
+    upper-negative = 4.56E-3;
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination))
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination)))

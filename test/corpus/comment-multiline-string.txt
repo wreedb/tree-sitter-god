@@ -1,0 +1,18 @@
+===============================================================================
+comment: multiline string
+===============================================================================
+{
+    greeting = ''
+        Hello # this is not a comment
+        there! # neither is this
+    ''; # this *is* a comment
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (string))
+    (termination))
+  (comment))

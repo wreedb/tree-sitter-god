@@ -1,0 +1,21 @@
+===============================================================================
+type(number): lowercase exponents
+===============================================================================
+{
+    lower = 1.23e10;
+    lower-negative = 4.56e-3;
+}
+-------------------------------------------------------------------------------
+(document
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination))
+  (field
+    (identifier)
+    (assignment)
+    (element
+      (number))
+    (termination)))
