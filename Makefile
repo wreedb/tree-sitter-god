@@ -95,7 +95,7 @@ uninstall:
 	$(RM) -r '$(DESTDIR)$(DATADIR)'/tree-sitter/queries/god
 
 clean:
-	$(RM) $(OBJS) $(LANGUAGE_NAME).pc lib$(LANGUAGE_NAME).a lib$(LANGUAGE_NAME).$(SOEXT)
+	$(RM) $(OBJS) $(LANGUAGE_NAME).pc lib$(LANGUAGE_NAME).a lib$(LANGUAGE_NAME).$(SOEXT) *.${SOEXT} *.wasm
 
 test:
 	$(TS) test

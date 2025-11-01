@@ -5,7 +5,7 @@
 (assignment) @operator
 (negation) @operator
 (bool) @boolean
-(null) @null
+(null) @type.builtin
 (number) @number
 (string) @string
-(identifier) @variable
+(identifier) @variable.member

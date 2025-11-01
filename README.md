@@ -3,12 +3,13 @@ SPDX-FileCopyrightText: 2025 Will Reed <wreed@disroot.org>
 
 SPDX-License-Identifier: LGPL-3.0-or-later
 -->
-# Tree-sitter grammar for **GOD**
+# Tree-sitter grammar for **God**
 
 This grammar is for the [GOD](https://github.com/wreedb/god) data serialization language, which is 
 heavily derived from the Nix language, albeit without any programatic features. See the repo for 
 more information.
 
+---
 ## Building/Testing
 You can build, test, parse, and highlight like so:
 ```sh
@@ -26,8 +27,17 @@ make test
 make install # as root if needed
 
 # cmake
-cmake -B bld -DCMAKE_BUILD_TYPE=Release # add '-G Ninja' to use ninja
-cmake --build bld
-make -C bld ts-test # or 'ninja -C bld ts-test' if using ninja
+cmake -B .build -DCMAKE_BUILD_TYPE=Release # add '-G Ninja' to use ninja
+cmake --build .build
+cmake --build .build --target ts-test # to test the grammar
 cmake --install bld # as root if needed
 ```
+
+---
+## Installing
+In addition the the manual method above, you may find prebuilt packages on the 
+[releases](https://github.com/wreedb/tree-sitter-god/releases) page, along with source-only archives as well.
+
+---
+## Licensing
+This project is licensed under the GNU Lesser General Public License, version 3.0 or later.
