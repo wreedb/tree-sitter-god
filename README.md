@@ -30,7 +30,7 @@ make install # as root if needed
 cmake -B .build -DCMAKE_BUILD_TYPE=Release # add '-G Ninja' to use ninja
 cmake --build .build
 cmake --build .build --target ts-test # to test the grammar
-cmake --install bld # as root if needed
+cmake --install .build # as root if needed
 ```
 
 ---
