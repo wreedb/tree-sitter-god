@@ -1,3 +1,8 @@
+<!--
+SPDX-FileCopyrightText: 2025 Will Reed <wreed@disroot.org>
+
+SPDX-License-Identifier: LGPL-3.0-or-later
+-->
 # Tree-sitter grammar for **GOD**
 
 This grammar is for the [GOD](https://github.com/wreedb/god) data serialization language, which is 

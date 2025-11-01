@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2025 Will Reed <wreed@disroot.org>
+#
+# SPDX-License-Identifier: LGPL-3.0-or-later
+
 cmake_minimum_required(VERSION 3.13)
 
 project(tree-sitter-god
