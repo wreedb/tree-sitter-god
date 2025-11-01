@@ -1,6 +1,6 @@
 // SPDX-FileCopyrightText: 2025 Will Reed
 //
-// SPDX-LicenseIdentifier: LGPL-3.0-or-later
+// SPDX-License-Identifier: LGPL-3.0-or-later
 
 #include <iostream>
 #include <fstream>

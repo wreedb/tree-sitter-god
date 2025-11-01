@@ -1,6 +1,6 @@
 # SPDX-FileCopyrightText: 2025 Will Reed
 #
-# SPDX-LicenseIdentifier: LGPL-3.0-or-later
+# SPDX-License-Identifier: LGPL-3.0-or-later
 
 version = 1
 SPDX-PackageName = "libgod"
@@ -63,5 +63,10 @@ SPDX-License-Identifier = "LGPL-3.0-or-later"
 
 [[annotations]]
 path = "Package.swift"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "tree-sitter.ucl"
 SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
