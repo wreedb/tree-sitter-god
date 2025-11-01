@@ -4,6 +4,7 @@
   "description": "God grammar for tree-sitter",
   "repository": "https://github.com/wreedb/tree-sitter-god",
   "license": "LGPL-3.0-or-later",
+  "type": "module",
   "author": {
     "name": "Will Reed",
     "email": "wreed@disroot.org",
