@@ -2,6 +2,18 @@
 #
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
+# ucl util executable
+/ucl
+
+# lockfile slop
+bun.lock
+deno.lock
+pnpm-lock.yaml
+package.lock.json
+
+# go checksum slop
+go.sum
+
 stage/
 .stage/
 
@@ -20,7 +32,6 @@ node_modules/
 package-lock.json
 
 # Swift artifacts
-.build/
 Package.resolved
 
 # Go artifacts
