@@ -1,25 +1,10 @@
-# SPDX-FileCopyrightText: 2025 Will Reed
+# SPDX-FileCopyrightText: 2025 Will Reed <wreed@disroot.org>
 #
 # SPDX-License-Identifier: LGPL-3.0-or-later
 
 version = 1
-SPDX-PackageName = "libgod"
+SPDX-PackageName = "tree-sitter-god"
 SPDX-PackageSupplier = "Will Reed <wreed@disroot.org>"
-
-[[annotations]]
-path = "example/*"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "src/**"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "tree-sitter.json"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
 
 [[annotations]]
 path = "version"
@@ -27,32 +12,12 @@ SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
 
 [[annotations]]
-path = "package.json"
+path = ".envrc"
 SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
 
 [[annotations]]
-path = "binding.gyp"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "pyproject.toml"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "setup.py"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "bindings/**"
-SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
-SPDX-License-Identifier = "LGPL-3.0-or-later"
-
-[[annotations]]
-path = "test/**"
+path = "example/*"
 SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
 
@@ -67,6 +32,91 @@ SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
 
 [[annotations]]
+path = "binding.gyp"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "bindings/**"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "test/**"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "src/**"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "tree-sitter.json"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
 path = "tree-sitter.ucl"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "go.mod"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "setup.py"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "CMakeLists.txt"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "Cargo.toml"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "pyproject.toml"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = ".gitignore"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = ".gitattributes"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = ".editorconfig"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "build.zig.zon"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "build.zig"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "Makefile"
+SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
+SPDX-License-Identifier = "LGPL-3.0-or-later"
+
+[[annotations]]
+path = "package.json"
 SPDX-FileCopyrightText = "2025 Will Reed <wreed@disroot.org>"
 SPDX-License-Identifier = "LGPL-3.0-or-later"
