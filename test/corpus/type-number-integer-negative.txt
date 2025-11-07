@@ -10,8 +10,5 @@ type(number): negative integer
     (identifier)
     (assignment)
     (element
-      (negatedElement
-        (negation)
-        (element
-          (number))))
+      (number))
     (termination)))

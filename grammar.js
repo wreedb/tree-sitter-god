@@ -27,7 +27,6 @@ export default grammar({
     operator: $ => choice(
       $.termination,
       $.assignment,
-      $.negation
     ),
     
     element: $ => choice(
@@ -37,17 +36,16 @@ export default grammar({
       $.null,
       $.list,
       $.map,
-      $.negatedElement
+      // $.negatedElement
     ),
 
     termination: $ => token(';'),
-    negation: $ => token('-'),
     assignment: $ => token('='),
     
-    negatedElement: $ => seq(
-      $.negation,
-      $.element
-    ),
+    // negatedElement: $ => seq(
+    //   $.negation,
+    //   $.element
+    // ),
     
     field: $ => seq(
         $.identifier, // name
@@ -83,24 +81,27 @@ export default grammar({
             "''"))),
     
     number: $ => token(
-        choice(
-            seq(
-                /\d+/,
-                optional(seq('.', optional(/\d+/))),
-                optional(seq(
-                    /[eE]/,
-                    optional(choice('+', '-')),
-                    /\d+/
-                ))
-            ),
-            seq(
-                '.',
-                /\d+/,
-                optional(seq(
-                    /[eE]/,
-                    optional(choice('+', '-')),
-                    /\d+/
-                ))
+        seq(
+            optional('-'),
+            choice(
+                seq(
+                    /\d+/,
+                    optional(seq('.', optional(/\d+/))),
+                    optional(seq(
+                        /[eE]/,
+                        optional(choice('+', '-')),
+                        /\d+/
+                    ))
+                ),
+                seq(
+                    '.',
+                    /\d+/,
+                    optional(seq(
+                        /[eE]/,
+                        optional(choice('+', '-')),
+                        /\d+/
+                    ))
+                )
             )
         )
     ),

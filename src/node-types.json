@@ -41,10 +41,6 @@
           "named": true
         },
         {
-          "type": "negatedElement",
-          "named": true
-        },
-        {
           "type": "null",
           "named": true
         },
@@ -117,25 +113,6 @@
     }
   },
   {
-    "type": "negatedElement",
-    "named": true,
-    "fields": {},
-    "children": {
-      "multiple": true,
-      "required": true,
-      "types": [
-        {
-          "type": "element",
-          "named": true
-        },
-        {
-          "type": "negation",
-          "named": true
-        }
-      ]
-    }
-  },
-  {
     "type": "string",
     "named": true,
     "fields": {}
@@ -163,10 +140,6 @@
   },
   {
     "type": "identifier",
-    "named": true
-  },
-  {
-    "type": "negation",
     "named": true
   },
   {

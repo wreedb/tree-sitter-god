@@ -11,17 +11,11 @@ type(number): lowercase negative exponents
     (identifier)
     (assignment)
     (element
-      (negatedElement
-        (negation)
-        (element
-          (number))))
+      (number))
     (termination))
   (field
     (identifier)
     (assignment)
     (element
-      (negatedElement
-        (negation)
-        (element
-          (number))))
+      (number))
     (termination)))

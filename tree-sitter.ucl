@@ -2,27 +2,27 @@
 
 grammars [
     {
-        name: god;
-        camelcase: God;
-        title: God;
-        scope: source.god;
-        file-types: [ god; ];
+        name: "god";
+        camelcase: "God";
+        title: "God";
+        scope: "source.god";
+        file-types: [ "god" ];
         injection-regex: "^god$";
-        class-name: TreeSitterGod;
-        highlights: queries/highlights.scm;
-        textobjects: queries/textobjects.scm;
-        indents: queries/indents.scm;
-        folds: queries/folds.scm;
+        class-name: "TreeSitterGod";
+        highlights: "queries/highlights.scm";
+        textobjects: "queries/textobjects.scm";
+        indents: "queries/indents.scm";
+        folds: "queries/folds.scm";
     }
 ]
 
 metadata {
-    version: 0.1.0;
-    license: LGPL-3.0-or-later;
+    version: "0.1.0";
+    license: "LGPL-3.0-or-later";
     description: "Tree-sitter grammar, for God";
     authors [
         {
-            name: Will Reed;
+            name: "Will Reed";
             email: "wreed@disroot.org";
             url: "https://wreedb.github.io";
         }
@@ -34,11 +34,11 @@ metadata {
 }
 
 bindings {
-    c: true;
-    go: true;
-    node: true;
-    python: true;
-    rust: true;
-    swift: true;
-    zig: true;
+    c: yes;
+    go: yes;
+    node: yes;
+    python: yes;
+    rust: yes;
+    swift: yes;
+    zig: yes;
 }
